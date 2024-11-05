@@ -1,0 +1,1 @@
+print("you entered this number : ", input("Enter a number :"))
