@@ -1,4 +1,4 @@
-from modules.user.variables import user_name
+from user.variables import user_name
 
 def check_bal(account_num):
     for value in user_name:
