@@ -3,7 +3,7 @@
 
 # " "  or ' ' or """ """
 
-value_sub = "English, tamil, Maths, science, Social"
+value_sub = "English, tamil , Maths, science, Social"
 print(value_sub)
 # lower level repetative and general need functions 
 # were available in python is methods 
@@ -23,6 +23,5 @@ for sub in list_sub:
     sub_cap = sub.strip().capitalize()
     capital_sub.append(sub_cap)
     print(capital_sub)
-print(capital_sub)
 capital_sub = ", ".join(capital_sub)
 print(capital_sub)
