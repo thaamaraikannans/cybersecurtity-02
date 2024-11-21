@@ -1,5 +1,5 @@
 file = open("lenovo.txt", "w")
 file.write("welcome!!")
 file.close()
-s = open("lenovo.txt", "r")
+s = open("lenovo.txt")
 print(s.read())
